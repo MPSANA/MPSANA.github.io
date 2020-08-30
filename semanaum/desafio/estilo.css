@@ -1,0 +1,45 @@
+html, body{
+    margin: 0px;
+    text-align: center;
+}
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 100px;
+}
+    
+
+ #titulo{
+     color: oldlace;
+     padding-top: 15%;
+     margin: 0px;
+     font-size: 400%;
+     font-family: 'Times New Roman', Times, serif; 
+     
+ }
+
+    #subtitulo{
+        color: whitesmoke;
+        font-size: 150%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        border-top: 3px white solid;
+        border-radius: 5px;
+
+ }
+    
+ #acao{
+     color: white solid;
+     border: 2px whitesmoke solid;
+     border-radius: 10px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+
+ }   
+    
+
+}
