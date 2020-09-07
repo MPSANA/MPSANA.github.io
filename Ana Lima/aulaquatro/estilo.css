@@ -1,0 +1,286 @@
+/*html, body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F8F8FF;
+}
+
+header{
+    background-color:#402A28;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    z-index: 500;
+}
+
+
+#logo img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#Menu{
+    float: right;
+    margin-top: 0px;
+    margin-right: 5%;
+    list-style: none;
+}
+.li{
+    float: right;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+
+}
+.li :hover{
+    background-color: transparent;
+}
+
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    padding: 100px;
+    margin-left: 50px;
+}
+
+ #titulo{
+     color: #A68F81;
+     padding-top: 15%;
+     margin: 0px;
+     font-size: 350%;
+     text-transform: uppercase;
+     text-align: center;
+     font-family:'Zilla Slab Highlight', cursive;
+     
+     
+ }
+
+    #subtitulo{
+        color: #D7D8D9;
+        font-size: 150%;
+        font-family:'Inria Serif', serif ;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        border-top: 3px white solid;
+        border-radius: 5px;
+
+ }
+
+    
+ #acao{
+     color: #D7D8D9;
+     background-color: #401E27;
+     border: 2px whitesmoke solid;
+     border-radius: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+     font-size: 20px;
+
+ }   
+ a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: none; 
+	}
+a:active {
+	text-decoration: none
+    }
+.Ícone{
+    width: 40px;
+    margin: 0px;
+    border-radius: 50%;
+    }
+
+    .Ícone:hover{
+        background-color: #FFDEAD;
+    }
+    .Vídeo{
+        margin-top: 2%;
+        margin-right: 80%;
+
+    }
+    .ImgPerspectiva{
+        width: 350px;
+        height: 35%;
+        
+        
+        
+    }
+*/
+html, body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3{
+    margin-top: 8px;;
+}
+
+header{
+    background-color: #590F23;
+    color: #A68F81;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 20px 20px 22px 20px;
+}
+
+li:hover{
+    background-color: #7C6557;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    color: antiquewhite;
+    text-shadow: 2px 2px 8px transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 12%;
+    margin: 0;
+    font-size: 550%; 
+}
+
+#subtitulo{
+    color: white;
+    text-shadow: 2px 2px 4px transparent;
+    line-height: 1.5;
+    font-size: 150%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;    
+}
+
+#acao{
+    color: white;
+    border-color: snow solid;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #8C654F;
+}
+
+.icone{
+    width: 55px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.destaque{
+    background-color: ;
+}
+/*Alteração do padding*/
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+
+.imgeco{
+    width: 80%;
+}
+#acao:hover{
+    background-color: #A68F81;
+    font-weight: 545;
+}
+
+.imgdestaque{
+    background-image: url(img/section.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.icone:hover{
+    background-color: lightblue;
+    
+}
+
+img:hover{
+    transform: scale(1.022);
+}
+
+img{
+    transition: 500ms
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;    
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+#sobre img{
+    width: 100%;
+}
+
+.alturalinha{
+    line-height: 1.5;
+}
+
+footer{
+    background-color: #593a2f;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+}
