@@ -223,11 +223,11 @@ li a{
 section{
     padding: 20px;
     float: left;
-    text-align: center;
 }
 
 .imgeco{
     width: 80%;
+    text-align: center;
 }
 #acao:hover{
     background-color: #97923a44;
@@ -303,6 +303,10 @@ footer{
     position: relative;
     margin: 5px auto;
     float: right; 
+    text-align: justify;
+    padding: 35px;
+    padding-left: 10px;
+   padding-right: 105px;
 }
 #acao{
     color: white;
@@ -317,10 +321,18 @@ footer{
     font-weight: 200;
 }  
 #titulo{
-    padding-top: 12%;
+    padding-top: 170px;
     font-size: 200%;
 }
 #logo{
     position: sticky;
+    text-align: center;
+    visibility: hidden;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3{
     text-align: center;
 }
